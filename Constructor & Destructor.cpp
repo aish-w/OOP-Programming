@@ -20,6 +20,10 @@ class Rectangle{
         l=r.l;
         b=r.b;
     }
+
+    ~Rectangle(){   //Destructor
+        cout<<"Destructor is called"<<endl;
+    }
 };
 int main(){
     Rectangle r1;
