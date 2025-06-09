@@ -26,12 +26,31 @@ For example, first, a car’s template is created. Then multiple units of car ar
 Objects can be considered as real-world instances of entities like class, that contain some characteristics and behaviors specified in the class template.\
 Objects are considered the instance of a class, and are therefore sometimes called “instances”. The term “characteristics” refers to the “what” about the Object, and the term “behavior” refers to the “how” about the Object.
 
-## Constructor
+## What is Constructor?
 Constructor is the function which is called when object is created.Constructors are special methods whose name is the same as the class name. The constructors serve the special purpose of initializing the objects.
 
 ### Types of Constructor
--- Default Constructor\
--- Paramaterized Constructor\
--- Copy Cconstructor\
+-- Default Constructor - The default constructor is the constructor which doesn’t take any argument. It has no parameters.\
+-- Parameterized Constructor - The constructors that take some arguments are known as parameterized constructors.\
+-- Copy Constructor - A copy constructor is a member function that initializes an object using another object of the same class.
 
-##
+## What is Destructor?
+Destructor is the function which is called when the object is deleted.Contrary to constructors, which initialize objects and specify space for them, Destructors are also special methods. But destructors free up the resources and memory occupied by an object. Destructors are automatically called when an object is being destroyed.
+
+## Features of OOPs
+=>Inheritance\
+=>Polymorphism\
+=>Encapsulation\
+=>Abstraction
+
+## Encapsulation
+Encapsulation is the process of binding data members and methods of a program together to do a specific job, without revealing unnecessary details.\
+Encapsulation can also be defined in two different ways:\
+1) Data hiding: Encapsulation is the process of hiding unwanted information, such as restricting access to any member of an object.\
+2) Data binding: Encapsulation is the process of binding the data members and the methods together as a whole, as a class.
+
+## Abstraction
+Abstraction is the method of hiding unnecessary details from the necessary ones.\
+For example, consider a car. You only need to know how to run a car, and not how the wires are connected inside it. This is obtained using Abstraction.
+
+## Inheritance
