@@ -57,16 +57,16 @@ For example, consider a car. You only need to know how to run a car, and not how
 Inheritance is one of the major features of object-oriented programming, by which an entity inherits some characteristics and behaviors of some other entity and makes them their own. Inheritance helps to improve and facilitate code reuse.
 
 ### Types of Inheritance
-1)Single inheritance
-2)Multiple inheritances
-3)Multi-level inheritance
-4)Hierarchical inheritance
+1)Single inheritance\
+2)Multiple inheritances\
+3)Multi-level inheritance\
+4)Hierarchical inheritance\
 5)Hybrid inheritance
 
-##Access Specifiers & Mode of Inheritance
+## Access Specifiers & Mode of Inheritance
 The access restriction specified to the class members (whether it is member function or data member) is known as access specifiers.\
 Access Modifiers are of 3 types:
 
-1)Private - It can neither be accessed nor be viewed from outside the class 
-2)Protected - It can be accessed if and only if the accessor is the derived class
-3)Public - It can be accessed or be viewed from outside the class 
+1)Private - It can neither be accessed nor be viewed from outside the class.\
+2)Protected - It can be accessed if and only if the accessor is the derived class.\
+3)Public - It can be accessed or be viewed from outside the class.
