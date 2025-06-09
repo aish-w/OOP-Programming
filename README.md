@@ -45,8 +45,8 @@ Destructor is the function which is called when the object is deleted.Contrary t
 
 ## Encapsulation
 Encapsulation is the process of binding data members and methods of a program together to do a specific job, without revealing unnecessary details.\
-Encapsulation can also be defined in two different ways:\
-1) Data hiding: Encapsulation is the process of hiding unwanted information, such as restricting access to any member of an object.\
+Encapsulation can also be defined in two different ways:
+1) Data hiding: Encapsulation is the process of hiding unwanted information, such as restricting access to any member of an object.
 2) Data binding: Encapsulation is the process of binding the data members and the methods together as a whole, as a class.
 
 ## Abstraction
@@ -54,3 +54,19 @@ Abstraction is the method of hiding unnecessary details from the necessary ones.
 For example, consider a car. You only need to know how to run a car, and not how the wires are connected inside it. This is obtained using Abstraction.
 
 ## Inheritance
+Inheritance is one of the major features of object-oriented programming, by which an entity inherits some characteristics and behaviors of some other entity and makes them their own. Inheritance helps to improve and facilitate code reuse.
+
+### Types of Inheritance
+1)Single inheritance
+2)Multiple inheritances
+3)Multi-level inheritance
+4)Hierarchical inheritance
+5)Hybrid inheritance
+
+##Access Specifiers & Mode of Inheritance
+The access restriction specified to the class members (whether it is member function or data member) is known as access specifiers.\
+Access Modifiers are of 3 types:
+
+1)Private - It can neither be accessed nor be viewed from outside the class 
+2)Protected - It can be accessed if and only if the accessor is the derived class
+3)Public - It can be accessed or be viewed from outside the class 
