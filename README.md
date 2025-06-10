@@ -70,3 +70,25 @@ Access Modifiers are of 3 types:
 1)Private - It can neither be accessed nor be viewed from outside the class.\
 2)Protected - It can be accessed if and only if the accessor is the derived class.\
 3)Public - It can be accessed or be viewed from outside the class.
+
+#### Diamond Problem
+Base class has multiple parent class having a common ancestor class.
+
+## Polymorphism
+Polymorphism is composed of two words - “poly” which means “many”, and “morph” which means “shapes”.In OOPs, Polymorphism refers to the process by which some code, data, method, or object behaves differently under different circumstances or contexts.
+
+### Types of Polymorphism
+1)Compile Time Polymorphism - Compile time polymorphism, also known as Static Polymorphism, refers to the type of Polymorphism that happens at compile time. What it means is that the compiler decides what shape or value has to be taken by the entity in the picture.\
+2)Runtime Polymorphism - Runtime polymorphism, also known as Dynamic Polymorphism, refers to the type of Polymorphism that happens at the run time. What it means is it can't be decided by the compiler. Therefore what shape or value has to be taken depends upon the execution. Hence the name Runtime Polymorphism.
+
+#### Compile Time Polymorphism
+-->Function Overloading - Function overloading allows you to define multiple functions with the same name but different parameters. It is a form of compile time polymorphism in which a function can perform different jobs based on the different parameters passed to it.\
+-->Operator Overloading - C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading. Operator overloading is a compile-time polymorphism. For example, we can overload an operator '+' in a class like String so that we can concatenate two strings by just using +.
+
+#### Run Time Polymorphism
+-->Function Overriding - Function overriding is a type of polymorphism in which we redefine the member function of a class which it inherited from its base class. The function signature remains same but the working of the function is altered to meet the needs of the derived class. So, when we call the function using its name for the parent object, the parent class function is executed. But when we call the function using the child object, the child class version will be executed.
+
+-->Virtual Fuction - a virtual function is a member function declared within a base class using the virtual keyword. Its primary purpose is to enable runtime polymorphism, allowing derived classes to override the function's behavior. When a virtual function is called through a base class pointer or reference, the actual function executed is determined by the object's type at runtime, not the pointer's type.
+
+## Friend Function
+A friend function in C++ is a function that is declared outside the scope of a class but has access to the private and protected members of that class. Friend functions are not member functions of the class but are granted special access to the class's internals. 
